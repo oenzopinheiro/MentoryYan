@@ -1,0 +1,11 @@
+const prompt = require("prompt-sync")()
+
+var hours = Number(prompt("Qual o tempo decorrido em horas? "))
+var minutes = Number(prompt("Qual o tempo decorrido em minutos? "))
+var seconds = Number(prompt("Qual o tempo decorrido em segundos? "))
+var result1 = Number(hours * 60)
+var result2 = Number(minutes * 60)
+var result3 = Number(seconds)
+console.log(result1)
+console.log(result2)
+console.log(result3)
